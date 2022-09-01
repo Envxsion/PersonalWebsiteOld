@@ -1,0 +1,116 @@
+*{
+    padding: 0em; /*creates extra space within an element*/
+    margin: 0;/*creates extra space around an element*/
+    font-family: 'Josefin Sans', sans-serif; /*Fonts*/
+    box-sizing: border-box; /*ensures that all elements are sized in this more intuitive way*/
+    cursor: none !important;
+}
+.menu{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/image-1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#pointer-ring {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    background: #fff;
+    border: 2px solid #00ffa6;
+    position: fixed;
+    border-radius: 100px;
+    z-index: 102;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    mix-blend-mode: difference;
+    transition: transform .05s;
+}
+
+.logo{
+    color:rgb(159, 96, 231);
+    font-size: 35px;
+    letter-spacing: 1;
+     /*mouse cursor to be displayed when pointing over an element*/
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute items evenly The first item is flush with the start, the last is flush with the end*/
+    padding-top: 0.45%;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+
+}
+html {
+    cursor: none !important;
+}
+.btn{
+    text-transform: capitalize;
+    background-color: crimson;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .6s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+nav ul li {
+    list-style-type: none;
+    padding:10px 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: inline-block;
+    color:rgb(20, 220, 160);
+    text-decoration: none;
+
+}
+nav ul li:hover{
+    color:rgb(255, 0, 221);
+    transition: 0.8s;
+}
+.intro{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translateY(-50%);
+    
+}
+.hs1{
+    color:rgb(235, 191, 229);
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+.hs2{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 20px;
+}
+.hs3{
+    color: white;
+    font-size:25px;
+    margin-bottom: 50px;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/image-2.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.abttext{
+    width: 500px;
+}
+
