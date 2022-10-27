@@ -1,5 +1,3 @@
-
-
 const pointer = document.createElement("div")
 const ring = document.createElement("div")
 ring.id = "pointer-ring"
